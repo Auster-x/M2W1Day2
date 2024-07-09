@@ -148,6 +148,13 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
+
+  .underImg {
+    width: 23em;
+    position: relative;
+    bottom: 30px;
+    
+  }
 }
 
 @media screen and (min-width: 500px) {
@@ -165,11 +172,24 @@ h1 + p {
     font-size: 1.4rem;
     font-weight: 700;
   }
+  .underImg {
+    width: 27em;
+    position: relative;
+    bottom: 30px;
+    
+  }
 }
 
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
+  }
+
+  .underImg {
+    width: 33em;
+    position: relative;
+    bottom: 40px;
+    
   }
 }
 
@@ -180,17 +200,17 @@ h1 + p {
   section {
     border-radius: 20px;
   }
+  
+  .underImg {
+    width: 30em;
+    position: relative;
+    bottom: 40px;
+    left: 500px;
+  }
 }
 
 .clearfix {
   position: static;
-
-}
-
-.underImg {
-  position: relative;
-  bottom: 50px;
-  left: 500px;
 }
 
 .imgLeft {
